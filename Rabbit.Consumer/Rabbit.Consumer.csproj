@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rabbit.Models\Rabbit.Models.csproj" />
+    <ProjectReference Include="..\Rabbit.Repositories\Rabbit.Repositories.csproj" />
+    <ProjectReference Include="..\Rabbit.Service\Rabbit.Service.csproj" />
+  </ItemGroup>
+
 </Project>

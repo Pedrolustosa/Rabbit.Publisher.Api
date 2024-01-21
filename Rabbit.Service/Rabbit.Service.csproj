@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rabbit.Models\Rabbit.Models.csproj" />
+    <ProjectReference Include="..\Rabbit.Repositories\Rabbit.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
