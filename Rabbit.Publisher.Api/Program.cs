@@ -1,7 +1,7 @@
-using Rabbit.Repositories;
-using Rabbit.Repositories.Interfaces;
-using Rabbit.Service;
+using Rabbit.Service.Services;
 using Rabbit.Service.Interfaces;
+using Rabbit.Repositories.Interfaces;
+using Rabbit.Repositories.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

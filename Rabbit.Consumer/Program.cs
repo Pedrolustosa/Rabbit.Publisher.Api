@@ -1,12 +1,11 @@
 ﻿using System.Text;
-using Rabbit.Models;
 using RabbitMQ.Client;
 using System.Text.Json;
 using RabbitMQ.Client.Events;
 using Rabbit.Models.Entities;
 
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello my friend, here is flow to return our queue using RabbitMQ");
 
 var factory = new ConnectionFactory { HostName = "localhost", UserName = "guest", Password = "guest" };
 using var connection = factory.CreateConnection();

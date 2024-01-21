@@ -4,7 +4,7 @@ using System.Text.Json;
 using Rabbit.Models.Entities;
 using Rabbit.Repositories.Interfaces;
 
-namespace Rabbit.Repositories
+namespace Rabbit.Repositories.Repositories
 {
     /// <summary>
     /// The rabbit message repository.

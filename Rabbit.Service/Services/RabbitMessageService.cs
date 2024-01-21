@@ -2,7 +2,7 @@
 using Rabbit.Service.Interfaces;
 using Rabbit.Repositories.Interfaces;
 
-namespace Rabbit.Service
+namespace Rabbit.Service.Services
 {
     /// <summary>
     /// The rabbit message service.
